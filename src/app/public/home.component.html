@@ -1,0 +1,28 @@
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Eventos mais Recentes</b></h1>
+</header>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div id="div" *ngFor="let evento of eventos; let i = index">
+  <div *ngIf="i>qtdEventos(eventos)-5" class="w3-third">
+    <div class="w3-card-2">
+      <img src="https://www.sololearn.com/Icons/Courses/1023.png" style="width:100%">
+      <div class="w3-container">
+        <h4>{{evento.nome}}</h4><br>  
+        <div class="caption">
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+    h1{
+        text-align: center!important;
+    }
+  
+</style>

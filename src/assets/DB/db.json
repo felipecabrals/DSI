@@ -1,0 +1,161 @@
+{
+  "conferencias": [
+    {
+      "id": 1,
+      "nome": "XIX Congresso de Computação e Sistemas de Informação",
+      "sigla": "ENCOINFO",
+      "inicio": "2017-05-15",
+      "termino": "2017-05-18",
+      "local": "Centro Universitário Luterano de Palmas",
+      "cidadeId": 1,
+      "url": "http://ulbra-to.br/encoinfo"
+    },
+    {
+      "id": 2,
+      "nome": "XIII Simpósio Brasileiro de Sistemas de Informação",
+      "sigla": "SBSI",
+      "inicio": "2017-06-05",
+      "termino": "2017-06-08",
+      "local": "Universidade Federal de Lavras",
+      "cidadeId": 7,
+      "url": "http://sbsi2017.dcc.ufla.br/"
+    },
+    {
+      "id": 3,
+      "nome": "XXXVII Congresso da Sociedade Brasileira de Computação",
+      "sigla": "CSBC",
+      "inicio": "2017-07-02",
+      "termino": "2017-07-06",
+      "local": "Universidade Presbiteriana Mackenzie",
+      "cidadeId": 9,
+      "url": "http://csbc2017.mackenzie.br/"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "admin",
+      "senha": "admin"
+    },
+    {
+      "id": 2,
+      "nome": "jose",
+      "senha": "jose"
+    },
+    {
+      "id": 3,
+      "nome": "maria",
+      "senha": "maria"
+    }
+  ],
+  "pessoas": [
+    {
+      "id": 1,
+      "usuarioId": 2,
+      "nome": "Jose Pessoa",
+      "email": "josepessoa@gmail.com"
+    },
+    {
+      "id": 2,
+      "usuarioId": 3,
+      "nome": "Maria Moura",
+      "email": "mariamoura@gmail.com"
+    }
+  ],
+  "inscritos": [
+    {
+      "id": 1,
+      "conferenciaId": 1,
+      "usuarioId": 2
+    },
+    {
+      "id": 2,
+      "conferenciaId": 2,
+      "usuarioId": 3
+    }
+  ],
+  "estados": [
+    {
+      "id": 1,
+      "uf": "TO",
+      "nome": "Tocantins"
+    },
+    {
+      "id": 2,
+      "uf": "GO",
+      "nome": "Goiás"
+    },
+    {
+      "id": 3,
+      "uf": "MG",
+      "nome": "Minas Gerais"
+    },
+    {
+      "id": 4,
+      "uf": "SP",
+      "nome": "São Paulo"
+    },
+    {
+      "id": 5,
+      "uf": "RJ",
+      "nome": "Rio de Janeiro"
+    },
+    {
+      "nome": "Pará",
+      "uf": "PA",
+      "id": 6
+    }
+  ],
+  "cidades": [
+    {
+      "id": 1,
+      "nome": "Palmas",
+      "estadoId": 1
+    },
+    {
+      "id": 2,
+      "nome": "Paraíso do Tocantins",
+      "estadoId": 1
+    },
+    {
+      "id": 3,
+      "nome": "Gurupi",
+      "estadoId": 1
+    },
+    {
+      "id": 4,
+      "nome": "Araguaína",
+      "estadoId": 1
+    },
+    {
+      "id": 5,
+      "nome": "Porto Nacional",
+      "estadoId": 1
+    },
+    {
+      "id": 6,
+      "nome": "Belo Horizonte",
+      "estadoId": 3
+    },
+    {
+      "id": 7,
+      "nome": "Lavras",
+      "estadoId": 3
+    },
+    {
+      "id": 8,
+      "nome": "Goiânia",
+      "estadoId": 2
+    },
+    {
+      "id": 9,
+      "nome": "São Paulo",
+      "estadoId": 4
+    },
+    {
+      "id": 10,
+      "nome": "Rio de Janeiro",
+      "estadoId": 5
+    }
+  ]
+}

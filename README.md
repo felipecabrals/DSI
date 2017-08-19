@@ -1,2 +1,1 @@
-# DSI
-Marcos Nobre, Felipe Dias e Gustavo
+# sistema-eventos-front
